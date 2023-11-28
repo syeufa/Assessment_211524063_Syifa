@@ -1,0 +1,18 @@
+GET http://localhost:5000/barangs
+
+####
+GET http://localhost:5000/barangs/BRG[211524063]01
+
+
+####
+POST http://localhost:5000/barangs
+Content-Type: application/json
+
+{
+    "KodeBarang": "BRG[211524063]01",
+    "NamaBarang" : "Indomie Rasa Syifa Khairina",
+    "Satuan": "Bungkus",
+    "HargaSatuan": 3000,
+    "Stok": 50 
+
+}
