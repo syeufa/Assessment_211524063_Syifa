@@ -16,3 +16,16 @@ Content-Type: application/json
     "Stok": 50 
 
 }
+
+####
+PATCH http://localhost:5000/barangs/BRG[211524063]01
+Content-Type: application/json
+
+{
+    "KodeBarang": "BRG[211524063]01",
+    "NamaBarang" : "Indomie Rasa Syifa Khairina",
+    "Satuan": "Cup",
+    "HargaSatuan": 3000,
+    "Stok": 50 
+
+}
